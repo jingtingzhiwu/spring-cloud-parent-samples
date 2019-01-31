@@ -13,7 +13,7 @@ spring:
           uri: https://github.com/jingtingzhiwu/spring-cloud-parent-samples
           searchPaths: spring-cloud-config-profile/helloworld
   application:
-    name: language
+    name: language-server
     
 #auto reload config
 management:

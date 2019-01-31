@@ -1,3 +1,7 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka/
 spring:
   application:
     name: language
@@ -5,7 +9,10 @@ spring:
     config:
       label: master
       profile: DE
-      uri: http://localhost:8888/
+      #uri: http://localhost:8888/
+      discovery:
+         enabled: true
+         serviceId: language-server
 server:
   port: 9999
  
