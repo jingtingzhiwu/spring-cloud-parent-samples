@@ -14,3 +14,10 @@ spring:
           searchPaths: spring-cloud-config-profile/helloworld
   application:
     name: language
+    
+#auto reload config
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
