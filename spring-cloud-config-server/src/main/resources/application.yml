@@ -15,6 +15,13 @@ spring:
   application:
     name: language-server
     
+#netflix bus
+  rabbitmq:
+    host: 172.16.43.129
+    port: 5672
+    username: guest
+    password: guest
+    
 #auto reload config
 management:
   endpoints:

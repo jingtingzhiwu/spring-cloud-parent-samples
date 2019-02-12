@@ -8,10 +8,10 @@
   	<version>0.0.1-SNAPSHOT</version>
   </parent>
 
-  <artifactId>spring-cloud-config-client</artifactId>
+  <artifactId>spring-cloud-service-zuul</artifactId>
   <packaging>jar</packaging>
 
-  <name>spring-cloud-config-client</name>
+  <name>spring-cloud-eureka-server</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -27,24 +27,8 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-config</artifactId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
-        
-        <!-- config profile 实时刷新 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        
-        <!-- netflix bus -->
-        <dependency>  
-		   <groupId>org.springframework.boot</groupId>  
-		    <artifactId>spring-boot-starter-actuator</artifactId>  
-		</dependency>
-		<dependency>  
-		    <groupId>org.springframework.cloud</groupId>  
-		    <artifactId>spring-cloud-starter-bus-amqp</artifactId>  
-		</dependency>
         <!-- spring boot test-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

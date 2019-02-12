@@ -20,5 +20,6 @@
   	<module>spring-cloud-eureka-server</module>
   	<module>spring-cloud-service-ribbon</module>
   	<module>spring-cloud-feign-client</module>
+  	<module>spring-cloud-service-zuul</module>
   </modules>
 </project>
